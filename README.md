@@ -1,21 +1,20 @@
-
-#DIO Platform Ransomware Challenge Repository
-This repository is created to store the DIO Platform Ransomware Challenge, showcasing a simple implementation of ransomware encryption and decryption using Python.
+DIO Platform Ransomware Challenge Repository
+This repository is dedicated to the DIO Platform Ransomware Challenge, showcasing a basic implementation of ransomware encryption and decryption using Python.
 
 Description
-The challenge demonstrates a basic ransomware script written in Python using the pyaes library for encryption and decryption. It encrypts a specified file with a hardcoded key and saves the encrypted data in a new file with a '.ransomwaretroll' extension. The decryption script reverses this process, decrypting the encrypted file and restoring it to its original state.
+The challenge presents a simple ransomware script written in Python utilizing the pyaes library for encryption and decryption tasks. It encrypts a specified file with a hardcoded key and saves the encrypted data in a new file with a '.ransomwaretroll' extension. The decryption script reverses this process, decrypting the encrypted file and restoring it to its original state.
 
 Usage
 Encryption
-To encrypt a file, run the encrypt.py script with the following command:
+To encrypt a file, execute the encrypt.py script with the following command:
 
 bash
 Copy code
 python encrypt.py
-Replace "teste.txt" with the name of the file you want to encrypt.
+Replace "teste.txt" with the name of the file you wish to encrypt.
 
 Decryption
-To decrypt a file encrypted by the ransomware, run the decrypt.py script with the following command:
+To decrypt a file encrypted by the ransomware, execute the decrypt.py script with the following command:
 
 bash
 Copy code
@@ -75,4 +74,4 @@ new_file = open(f'{new_file}', "wb")
 new_file.write(decrypted_data)
 new_file.close()
 Disclaimer
-This code is for educational purposes only. Ransomware activities are illegal and unethical. Please use this knowledge responsibly and refrain from engaging in any malicious activities.
+This code is intended for educational purposes only. Engaging in ransomware activities is illegal and unethical. Please use this knowledge responsibly and refrain from any malicious activities.
