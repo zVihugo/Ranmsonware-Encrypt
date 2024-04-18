@@ -1,5 +1,5 @@
 
-DIO Platform Ransomware Challenge Repository
+#DIO Platform Ransomware Challenge Repository
 This repository is created to store the DIO Platform Ransomware Challenge, showcasing a simple implementation of ransomware encryption and decryption using Python.
 
 Description
